@@ -57,6 +57,17 @@ This section documents the entire process of creating my portfolio website. I wi
   - Implementing a responsive grid layout that works well on both mobile and desktop.
   - Styling the tech stack list to be visually appealing and consistent across different project cards.
 
+### Stage 4: About Myself Section
+- **Objective**: Create an "About Myself" section with skills and resume.
+- **Tasks**:
+  - Design and implement the "About Myself" section layout.
+  - Create expandable skill categories using CSS-only accordion.
+  - Add a "Get my resume" button.
+  - Ensure responsive design for various screen sizes.
+- **Challenges**:
+  - Implementing a CSS-only accordion for skill categories without using JavaScript.
+  - Styling the skill list items with icons and maintaining consistent layout.
+
 *(More Steps to be added)*
 
 ## Getting Started

@@ -281,3 +281,98 @@ p {
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
+.about-myself {
+    background-color: white;
+    padding: 4rem 1rem;
+    border-top-right-radius: 6rem;
+}
+
+.about-myself h2 {
+    font-size: 2.5rem;
+    color: #172b4d;
+    margin-bottom: 1rem;
+}
+
+.about-myself p {
+    margin-bottom: 1.5rem;
+}
+
+.resume-button {
+    display: inline-block;
+    color: #396df2;
+    text-decoration: none;
+    border: 1px solid #396df2;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    margin-top: 1rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.resume-button:hover {
+    background-color: #396df2;
+    color: white;
+}
+
+.skills-section {
+    margin-top: 2rem;
+}
+
+.skill-category {
+    border-bottom: 1px solid #dfe1e6;
+    margin-bottom: 1rem;
+}
+
+.skill-toggle {
+    display: none;
+}
+
+.skill-label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 1rem 0;
+}
+
+.skill-label::after {
+    content: '>';
+    transition: transform 0.3s;
+    font-size: 1.2rem;
+    color: black;
+}
+
+.skill-toggle:checked + .skill-label::after {
+    transform: rotate(90deg);
+}
+
+.skill-list {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.skill-toggle:checked ~ .skill-list {
+    max-height: 500px;
+}
+
+.skill-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.skill-list li img {
+    width: 40px;
+    height: 40px;
+    margin-right: 1rem;
+}
+
+.item
+{
+  padding: 1.5rem 1rem;
+  background-color: rgba(128, 128, 128, 0.192);
+  border-radius: 1rem;
+}
