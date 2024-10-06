@@ -36,11 +36,15 @@ This section documents the entire process of creating my portfolio website. I wi
 - **Tasks**: Create Index.html and styles.css files in your project folder.
 - **Challenges**: --Nil--
 
-### Stage 2: About Me Section
-- **Objective**:
-- **Tasks**:
-- **Challenges**:
-
+### Stage 2: Navbar and Hero Section
+- **Objective**: Create the navigation bar and hero section of the portfolio.
+- **Tasks**: 
+  - Design and implement the navigation bar.
+  - Create an engaging hero section.
+  - Ensure Mobile First Approach and responsive design for various screen sizes.
+- **Challenges**: 
+  - Resolving the "Expected 'context' media feature range notation (media-feature-range-notation)" error in CSS media queries.
+  - Fixed By using the latest notation for defining range.
 
 ### Stage 3: Projects Section
 - **Objective**:
