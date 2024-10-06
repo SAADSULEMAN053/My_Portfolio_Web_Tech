@@ -47,16 +47,15 @@ This section documents the entire process of creating my portfolio website. I wi
   - Fixed By using the latest notation for defining range.
 
 ### Stage 3: Projects Section
-- **Objective**:
+- **Objective**: Create a responsive projects section to showcase recent works.
 - **Tasks**:
+  - Design and implement a grid layout for project cards.
+  - Create project cards with images, titles, descriptions, and tech stacks.
+  - Ensure responsive design for various screen sizes.
+  - Add "See Project" buttons with hover effects.
 - **Challenges**:
- 
-
-### Stage 4: Skills Section
-- **Objective**:
-- **Tasks**:
-- **Challenges**:
-  
+  - Implementing a responsive grid layout that works well on both mobile and desktop.
+  - Styling the tech stack list to be visually appealing and consistent across different project cards.
 
 *(More Steps to be added)*
 
