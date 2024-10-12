@@ -68,6 +68,17 @@ This section documents the entire process of creating my portfolio website. I wi
   - Implementing a CSS-only accordion for skill categories without using JavaScript.
   - Styling the skill list items with icons and maintaining consistent layout.
 
+### Stage 5: Contact Section
+- **Objective**: Create a contact form section with a visually appealing design.
+- **Tasks**:
+  - Design and implement the contact form layout.
+  - Style the form inputs and submit button.
+  - Add decorative objects with inverted colors.
+  - Ensure responsive design for various screen sizes.
+- **Challenges**:
+  - Styling form elements consistently across different browsers.
+  - Positioning decorative objects without interfering with form usability.
+
 *(More Steps to be added)*
 
 ## Getting Started
