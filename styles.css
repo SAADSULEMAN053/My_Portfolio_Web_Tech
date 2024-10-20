@@ -22,7 +22,6 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 
 .logo {
@@ -136,7 +135,6 @@ p {
     {
         padding: 1rem 5rem;
     }
-    
     .menu-toggle {
         display: none;
     }
@@ -401,10 +399,11 @@ p {
     margin-right: 1rem;
 }
 
-.item {
-    padding: 1.5rem 1rem;
-    background-color: rgba(128, 128, 128, 0.192);
-    border-radius: 1rem;
+.item
+{
+  padding: 1.5rem 1rem;
+  background-color: rgba(128, 128, 128, 0.192);
+  border-radius: 1rem;
 }
 
 .contact {
@@ -488,43 +487,10 @@ p {
 
 @media (width >= 768px) {
     .contact {
-        padding: 6rem 40rem;
-
+        padding: 6rem 2rem;
     }
 
     .contact-form {
         max-width: 600px;
-    }
-
-    .submit-btn {
-        align-self: center;
-    }
-}
-
-@media (width >= 768px) {
-    .about-myself {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-        padding: 6rem 2rem;
-    }
-
-    .about-content {
-        width: 45%;
-    }
-
-    .skills-section {
-        width: 45%;
-        margin-top: 0;
-    }
-
-    .skill-category:first-child .skill-list {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 1rem;
-    }
-
-    .skill-category:first-child .item {
-        flex: 0 0 calc(33.33% - 1rem);
     }
 }
