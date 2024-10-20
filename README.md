@@ -79,15 +79,43 @@ This section documents the entire process of creating my portfolio website. I wi
   - Styling form elements consistently across different browsers.
   - Positioning decorative objects without interfering with form usability.
 
-*(More Steps to be added)*
+### Stage 6: Desktop Version Update
+- **Objective**: Update the project with a desktop version.
+- **Tasks**:
+  - Implement a two-column layout for the "About Myself" section.
+  - Ensure all sections are responsive and visually appealing on larger screens.
+
+### Stage 7: Animations and Transitions
+- **Objective**: Enhance the user experience with animations and transitions.
+- **Tasks**:
+  - Add hover effects to project cards and buttons.
+  - Implement smooth transitions for various UI elements.
+
+### Stage 8: Deployment on GitHub Pages
+- **Objective**: Deploy the portfolio website on GitHub Pages.
+- **Tasks**:
+  - Configure the repository settings to enable GitHub Pages.
+  - Ensure all assets are correctly linked and accessible.
 
 ## Getting Started
 To view the portfolio locally:
 1. Clone the repository:  
    ```bash
    git clone https://github.com/yourusername/your-portfolio.git
+   ```
 
-2. Navigate to the project folder and   open index.html in your preferred web browser.
+2. Navigate to the project folder and open index.html in your preferred web browser.
+
+## Installing Linters
+To install linters for your project, follow these steps:
+1. Ensure you have Node.js installed on your machine.
+2. Navigate to your project directory in the terminal.
+3. Run the following command to install the necessary linters:
+   ```bash
+   npm install eslint htmlhint stylelint stylelint-config-standard --save-dev
+   ```
+
+4. Configure the linters by creating `.eslintrc.json` and `.stylelintrc.json` files in your project root with the appropriate settings.
 
 ## Contributing
 If you would like to contribute to this project, feel free to submit a pull request. Please ensure your code follows best practices and is well-documented.
