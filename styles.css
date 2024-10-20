@@ -224,10 +224,10 @@ p {
 .project-card {
     background-color: white;
     border-radius: 16px;
-    padding: 1rem;
+    padding: 1.5rem;
     display: flex;
     flex-direction: column;
-    box-shadow: 0 4px 8px rgba(0 0 0 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .project-card img {
@@ -282,13 +282,28 @@ p {
 
 @media (width >= 768px) {
     .project-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
+        max-width: 1200px;
+        margin: 0 auto;
     }
-}
 
-@media (width >= 1024px) {
-    .project-grid {
-        grid-template-columns: repeat(2, 1fr);
+    .project-card {
+        flex-direction: row;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .project-card:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+
+    .project-card img {
+        width: 50%;
+        margin-bottom: 0;
+    }
+
+    .project-info {
+        width: 50%;
     }
 }
 
