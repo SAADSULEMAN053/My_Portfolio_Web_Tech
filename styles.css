@@ -395,11 +395,10 @@ p {
     margin-right: 1rem;
 }
 
-.item
-{
-  padding: 1.5rem 1rem;
-  background-color: rgba(128, 128, 128, 0.192);
-  border-radius: 1rem;
+.item {
+    padding: 1.5rem 1rem;
+    background-color: rgba(128, 128, 128, 0.192);
+    border-radius: 1rem;
 }
 
 .contact {
@@ -488,5 +487,33 @@ p {
 
     .contact-form {
         max-width: 600px;
+    }
+}
+
+@media (width >= 768px) {
+    .about-myself {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 6rem 2rem;
+    }
+
+    .about-content {
+        width: 45%;
+    }
+
+    .skills-section {
+        width: 45%;
+        margin-top: 0;
+    }
+
+    .skill-category:first-child .skill-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .skill-category:first-child .item {
+        flex: 0 0 calc(33.33% - 1rem);
     }
 }
