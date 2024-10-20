@@ -9,10 +9,10 @@ http://saadiduous.me/My_Portfolio_Web_Tech/
 - [About](#about)
 - [Technologies Used](#technologies-used)
 - [Features](#features)
+- [Figma Template](#figma-template)
 - [Project Development Process](#project-development-process)
 - [Getting Started](#getting-started)
 - [Installing Linters](#installing-linters)
-- [Figma Template](#figma-template)
 - [Contributing](#contributing)
 - [License](#license)
 
