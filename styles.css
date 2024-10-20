@@ -235,6 +235,7 @@ p {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: border 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     border: 1px solid transparent;
+    cursor: url('../images/Cursors/hand_cursor.svg'), auto;
 }
 
 .project-card:hover {
@@ -290,6 +291,7 @@ p {
 .project-link:hover {
     background-color: #396df2;
     color: white;
+    cursor: url('../images/Cursors/hand_cursor.svg'), auto;
 }
 
 @media (width >= 768px) {
