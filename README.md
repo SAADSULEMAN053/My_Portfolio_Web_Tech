@@ -1,6 +1,6 @@
 # Saad's Portfolio
 
-Welcome to my portfolio repository! This is a simple, responsive website designed to showcase my work, skills, and professional background. It is built with vanilla **HTML** **JS** and **CSS**.
+Welcome to my portfolio repository! This is a simple, responsive website designed to showcase my work, skills, and professional background. It is built with vanilla **HTML**, **JS**, and **CSS**.
 
 ## Table of Contents
 - [About](#about)
@@ -8,6 +8,7 @@ Welcome to my portfolio repository! This is a simple, responsive website designe
 - [Features](#features)
 - [Project Development Process](#project-development-process)
 - [Getting Started](#getting-started)
+- [Installing Linters](#installing-linters)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -32,7 +33,7 @@ This portfolio showcases my personal projects, skills, and experience in web dev
 This section documents the entire process of creating my portfolio website. I will update this section regularly as I complete different stages of the project.
 
 ### Stage 1: Initial Setup
-- **Objective**: Setup Basic HTML and CSS structure, and Install Linters. (Learn How to Install Linters)
+- **Objective**: Setup Basic HTML and CSS structure, and Install Linters. [Learn How to Install Linters](#installing-linters)
 - **Tasks**: Create Index.html and styles.css files in your project folder.
 - **Challenges**: --Nil--
 
@@ -116,6 +117,8 @@ To install linters for your project, follow these steps:
    ```
 
 4. Configure the linters by creating `.eslintrc.json` and `.stylelintrc.json` files in your project root with the appropriate settings.
+
+If you are using Visual Studio Code, you can also install extensions for ESLint, HTMLHint, and Stylelint to get real-time feedback and linting directly in your editor.
 
 ## Contributing
 If you would like to contribute to this project, feel free to submit a pull request. Please ensure your code follows best practices and is well-documented.
