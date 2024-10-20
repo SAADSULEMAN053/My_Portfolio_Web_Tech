@@ -488,7 +488,7 @@ p {
 
 @media (width >= 768px) {
     .contact {
-        padding: 6rem 2rem;
+        padding: 6rem 40rem;
     }
 
     .contact-form {
