@@ -129,83 +129,8 @@ p {
     right: 30%;
 }
 
-/* Desktop styles */
-@media (width >= 768px) {
-    nav
-    {
-        padding: 1rem 5rem;
-    }
-    
-    .menu-toggle {
-        display: none;
-    }
 
-    .nav-links {
-        display: flex;
-        gap: 2rem;
-    }
 
-    .nav-links li a {
-        text-decoration: none;
-        color: #344563;
-        font-weight: 500;
-    }
-
-    .hero {
-        max-width: 1920px;
-        margin: 0 auto;
-        padding: 12rem 30rem;
-    }
-
-    h1 {
-        font-size: 3.5rem;
-    }
-
-    p {
-        font-size: 1.25rem;
-    }
-
-    .social-links {
-        justify-content: flex-start;
-    }
-
-    /* Adjust decorative object positions for desktop */
-    .obj1 {
-        top: 80px; /* Adjusted position */
-        left: 5%; /* Adjusted position */
-    }
-
-    .obj2 {
-        top: 8%; /* Adjusted position */
-        left:4%; /* Adjusted position */
-        z-index: 9999;
-    }
-
-    .obj3 {
-        top:15%; /* Adjusted position */
-        right: 80px; /* Adjusted position */
-    }
-
-    .obj4 {
-        top:8%; /* Adjusted position */
-        right: 6% /* Adjusted position */
-    }
-
-    .obj5 {
-        bottom: 10%;
-        left: 10%;
-    }
-    
-    .obj6 {
-        bottom: 10%;
-        right: 30%;
-    }
-    
-    .obj7 {
-        bottom: 6%;
-        right: 30%;
-    }
-}
 
 /* Projects section */
 .projects {
@@ -294,32 +219,6 @@ p {
     cursor: url('../images/Cursors/hand_cursor.svg'), auto;
 }
 
-@media (width >= 768px) {
-    .project-grid {
-        grid-template-columns: 1fr;
-        max-width: 1200px;
-        margin: 0 auto;
-    }
-
-    .project-card {
-        flex-direction: row;
-        align-items: center;
-        gap: 2rem;
-    }
-
-    .project-card:nth-child(even) {
-        flex-direction: row-reverse;
-    }
-
-    .project-card img {
-        width: 50%;
-        margin-bottom: 0;
-    }
-
-    .project-info {
-        width: 50%;
-    }
-}
 
 .about-myself {
     background-color: white;
@@ -495,44 +394,3 @@ p {
 
 }
 
-@media (width >= 768px) {
-    .contact {
-        padding: 6rem 40rem;
-    }
-
-    .contact-form {
-        max-width: 600px;
-    }
-    
-    .submit-btn {
-        align-self: center;
-    }
-}
-
-@media (width >= 768px) {
-    .about-myself {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-        padding: 6rem 2rem;
-    }
-
-    .about-content {
-        width: 45%;
-    }
-
-    .skills-section {
-        width: 45%;
-        margin-top: 0;
-    }
-
-    .skill-category:first-child .skill-list {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 1rem;
-    }
-
-    .skill-category:first-child .item {
-        flex: 0 0 calc(33.33% - 1rem);
-    }
-}
