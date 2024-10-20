@@ -101,7 +101,7 @@ This section documents the entire process of creating my portfolio website. I wi
 To view the portfolio locally:
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/yourusername/your-portfolio.git
+   git clone https://github.com/SAADSULEMAN053/My_Portfolio_Web_Tech
    ```
 
 2. Navigate to the project folder and open index.html in your preferred web browser.
