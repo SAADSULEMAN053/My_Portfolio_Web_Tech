@@ -3,7 +3,7 @@
 Welcome to my portfolio repository! This is a simple, responsive website designed to showcase my work, skills, and professional background. It is built with vanilla **HTML**, **JS**, and **CSS**.
 
 Link to site:
-[http://saadiduous.me/My_Portfolio_Web_Tech/]
+http://saadiduous.me/My_Portfolio_Web_Tech/
 
 ## Table of Contents
 - [About](#about)
