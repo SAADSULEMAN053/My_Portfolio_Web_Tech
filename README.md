@@ -1,5 +1,7 @@
 # Saad's Portfolio
 
+![Cover Image](repo_cover_image/Cover.png)
+
 Welcome to my portfolio repository! This is a simple, responsive website designed to showcase my work, skills, and professional background. It is built with vanilla **HTML**, **JS**, and **CSS**.
 
 Link to site:
@@ -110,7 +112,7 @@ This section documents the entire process of creating my portfolio website. I wi
 To view the portfolio locally:
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/SAADSULEMAN053/My_Portfolio_Web_Tech,git
+   git clone https://github.com/SAADSULEMAN053/My_Portfolio_Web_Tech.git
    ```
 
 2. Navigate to the project folder and open index.html in your preferred web browser.
