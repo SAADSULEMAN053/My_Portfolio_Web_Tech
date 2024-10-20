@@ -9,6 +9,7 @@ Welcome to my portfolio repository! This is a simple, responsive website designe
 - [Project Development Process](#project-development-process)
 - [Getting Started](#getting-started)
 - [Installing Linters](#installing-linters)
+- [Figma Template](#figma-template)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -28,6 +29,10 @@ This portfolio showcases my personal projects, skills, and experience in web dev
 - **Clean Layout**: A minimal, professional design to make navigation easy.
 - **Project Showcase**: Each project includes descriptions and links to repositories or live demos.
 - **Contact Form**: A simple form to get in touch.
+
+## Figma Template
+The design for this portfolio was created using Figma. You can view and edit the Figma template [here](https://www.figma.com/design/vfmIHe237W5PFaJYI3kQF5/Microverse-Student-Project-1-(Copy)?node-id=0-1&t=JYRX1nmHmcaaMnXI-1e).
+
 
 ## Project Development Process
 This section documents the entire process of creating my portfolio website. I will update this section regularly as I complete different stages of the project.
