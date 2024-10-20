@@ -22,6 +22,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .logo {
@@ -131,6 +132,11 @@ p {
 
 /* Desktop styles */
 @media (width >= 768px) {
+    nav
+    {
+        padding: 1rem 5rem;
+    }
+    
     .menu-toggle {
         display: none;
     }
@@ -482,11 +488,16 @@ p {
 
 @media (width >= 768px) {
     .contact {
-        padding: 6rem 2rem;
+        padding: 6rem 40rem;
+
     }
 
     .contact-form {
         max-width: 600px;
+    }
+
+    .submit-btn {
+        align-self: center;
     }
 }
 
