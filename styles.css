@@ -46,14 +46,14 @@ nav {
 /* Hero section */
 .hero {
     position: relative;
-    padding: 10rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10rem 2rem;
     text-align: left;
     border-bottom-left-radius: 6rem;   
-    border: 2px;
     background-color: white;
-
-
 }
+
 
 h1 {
     font-size: 3rem;
@@ -153,7 +153,6 @@ p {
 
     .hero {
         max-width: 1920px;
-        margin: 0 auto;
         padding: 12rem 30rem;
     }
 
@@ -510,6 +509,9 @@ p {
 }
 
 @media (width >= 768px) {
+
+    
+
     .about-myself {
         display: flex;
         justify-content: space-between;
@@ -536,3 +538,63 @@ p {
         flex: 0 0 calc(33.33% - 1rem);
     }
 }
+
+/* Mobile Menu Styles */
+.menu-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(96, 112, 255, 0.9);
+    backdrop-filter: blur(5px);
+    z-index: 1000;
+}
+
+.menu-overlay.active {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    padding: 10rem 2rem;
+}
+
+.close-menu {
+    position: absolute;
+    top: 5%;
+    right: 15%;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.menu-overlay .nav-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.menu-overlay .nav-links li a {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: Semi-bold;
+    text-decoration: none;
+}
+
+/* Hide menu toggle on desktop */
+@media (width >= 768px) {
+    .menu-toggle, .close-menu {
+        display: none;
+    }
+}
+
+.container {
+    max-width: 1200px;
+    
+}
+

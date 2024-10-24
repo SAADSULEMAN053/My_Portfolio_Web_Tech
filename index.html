@@ -13,155 +13,161 @@
     <header>
         <nav>
             <div class="logo">My Logo</div>
-            <button class="menu-toggle">&#9776;</button>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+            <button class="menu-toggle" id="menuToggle">&#9776;</button>
+            <div class="menu-overlay" id="menuOverlay">
+                <button class="close-menu" id="closeMenu">&times;</button>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
 
     <main>
-        <section class="hero">
-            <h1>I'm Saad S. Glad to see you!</h1>
-            <p>I'm a software developer! I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.</p>
-            <a href="#connect" class="cta-button">LET'S CONNECT</a>
-            <div class="social-links">
-                <a href="https://twitter.com"><img src="images/social_icons/twitter.svg" alt="Twitter Icon"></a>
-                <a href="https://www.linkedin.com"><img src="images/social_icons/linkedIn.svg" alt="LinkedIn Icon"></a>
-                <a href="https://medium.com"><img src="images/social_icons/M.svg" alt="Medium Icon"></a>
-                <a href="https://github.com"><img src="images/social_icons/github.svg" alt="Github Icon"></a>
-                <a href="https://www.peace.com"><img src="images/social_icons/Vector.svg" alt="Peace Icon"></a>
-            </div>
-            <div class="decorative-object obj1"><img src="images/floating_objects/Ellipse 20.svg" alt="Floating_Object"></div>
-            <div class="decorative-object obj2"><img src="images/floating_objects/Rectangle 10.svg" alt="Floating_Object"></div>
-            <div class="decorative-object obj3"><img src="images/floating_objects/Ellipse 24.svg" alt="Floating_Object"></div>
-            <div class="decorative-object obj4"><img src="images/floating_objects/Rectangle 11.svg" alt="Floating_Object"></div>
-            <div class="decorative-object obj5"><img src="images/floating_objects/Ellipse 23.svg" alt="Floating_Object"></div>
-            <div class="decorative-object obj6"><img src="images/floating_objects/Ellipse 17.svg" alt="Floating_Object"></div>
-            <div class="decorative-object obj7"><img src="images/floating_objects/Rectangle 9.svg" alt="Floating_Object"></div>
-        </section>
-
-        <section class="projects">
-            <h2>My Recent Works</h2>
-            <div class="project-grid">
-                <div class="project-card">
-                    <img src="images/projects/Snapshoot Portfolio.png" alt="Project 1">
-                    <div class="project-info">
-                        <h3>Tonic</h3>
-                        <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                        <ul class="tech-stack">
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JavaScript</li>
-                        </ul>
-                        <a href="#" class="project-link">See Project</a>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <img src="images/projects/Snapshoot Portfolio_1.png" alt="Project 2">
-                    <div class="project-info">
-                        <h3>Multi-Post Stories</h3>
-                        <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                        <ul class="tech-stack">
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JavaScript</li>
-                        </ul>
-                        <a href="#" class="project-link">See Project</a>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <img src="images/projects/Snapshoot Portfolio_2.png" alt="Project 3">
-                    <div class="project-info">
-
-                        <h3>Facebook 360</h3>
-                        <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                        <ul class="tech-stack">
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JavaScript</li>
-                        </ul>
-                        <a href="#" class="project-link">See Project</a>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <img src="images/projects/Snapshoot Portfolio_3.png" alt="Project 4">
-                    <div class="project-info">   
-                        <h3>Uber Navigation</h3>
-                        <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                        <ul class="tech-stack">
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JavaScript</li>
-                        </ul>
-                        <a href="#" class="project-link">See Project</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="about-myself">
-            <div class="about-content">
-                <h2>About Myself</h2>
-                <p>Hello I'm a software developer! I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.</p>
+        <div class="container">
+            <section class="hero">
+                <h1>I'm Saad S. Glad to see you!</h1>
+                <p>I'm a software developer! I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.</p>
                 <a href="#connect" class="cta-button">LET'S CONNECT</a>
                 <div class="social-links">
                     <a href="https://twitter.com"><img src="images/social_icons/twitter.svg" alt="Twitter Icon"></a>
-                    <a href="https://www.linkedin.com"><img src="/images/social_icons/linkedIn.svg" alt="LinkedIn Icon"></a>
+                    <a href="https://www.linkedin.com"><img src="images/social_icons/linkedIn.svg" alt="LinkedIn Icon"></a>
                     <a href="https://medium.com"><img src="images/social_icons/M.svg" alt="Medium Icon"></a>
                     <a href="https://github.com"><img src="images/social_icons/github.svg" alt="Github Icon"></a>
                     <a href="https://www.peace.com"><img src="images/social_icons/Vector.svg" alt="Peace Icon"></a>
                 </div>
-                <a href="#" class="resume-button">Get my resume</a>
-            </div>
-            <div class="skills-section">
-                <div class="skill-category">
-                    <input type="checkbox" id="languages" class="skill-toggle" checked>
-                    <label for="languages" class="skill-label">Languages</label>
-                    <ul class="skill-list">
-                        <li class="item"><img src="images/projects/Ellipse 1.png" alt="JavaScript"> JavaScript</li>
-                        <li class="item"><img src="images/projects/Ellipse 1_1.png" alt="HTML"> HTML</li>
-                        <li class="item"><img src="images/projects/Ellipse 1_2.png" alt="CSS"> CSS</li>
-                    </ul>
-                </div>
-                <div class="skill-category">
-                    <input type="checkbox" id="frameworks" class="skill-toggle">
-                    <label for="frameworks" class="skill-label">Frameworks</label>
-                    <ul class="skill-list">
-                        <li class="item">Framework 1</li>
-                        <li class="item">Framework 2</li>
-                        <li class="item">Framework 3</li>
-                    </ul>
-                </div>
-                <div class="skill-category">
-                    <input type="checkbox" id="skills" class="skill-toggle">
-                    <label for="skills" class="skill-label">Skills</label>
-                    <ul class="skill-list">
-                        <li class="item">Skill 1</li>
-                        <li class="item">Skill 2</li>
-                        <li class="item">Skill 3</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
+                <div class="decorative-object obj1"><img src="images/floating_objects/Ellipse 20.svg" alt="Floating_Object"></div>
+                <div class="decorative-object obj2"><img src="images/floating_objects/Rectangle 10.svg" alt="Floating_Object"></div>
+                <div class="decorative-object obj3"><img src="images/floating_objects/Ellipse 24.svg" alt="Floating_Object"></div>
+                <div class="decorative-object obj4"><img src="images/floating_objects/Rectangle 11.svg" alt="Floating_Object"></div>
+                <div class="decorative-object obj5"><img src="images/floating_objects/Ellipse 23.svg" alt="Floating_Object"></div>
+                <div class="decorative-object obj6"><img src="images/floating_objects/Ellipse 17.svg" alt="Floating_Object"></div>
+                <div class="decorative-object obj7"><img src="images/floating_objects/Rectangle 9.svg" alt="Floating_Object"></div>
+            </section>
 
-        <section class="contact">
-            <h2>Contact me</h2>
-            <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I'd love to help with it!</p>
-            <form class="contact-form">
-                <input type="text" placeholder="Lorem Ipsum" required>
-                <input type="email" placeholder="loremipsum@gmail.com" required>
-                <textarea placeholder="Write your message here..." required></textarea>
-                <button type="submit" class="submit-btn">Get in touch</button>
-            </form>
-            <div class="decorative-object obj8"><img src="images/floating_objects/Ellipse 3.svg" alt="Floating_Object"></div>
-            <div class="decorative-object obj9"><img src="images/floating_objects/Ellipse 5.svg" alt="Floating_Object"></div>
-            <div class="decorative-object obj10"><img src="images/floating_objects/Ellipse 5.svg" alt="Floating_Object"></div>
-        </section>
+            <section class="projects">
+                <h2>My Recent Works</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <img src="images/projects/Snapshoot Portfolio.png" alt="Project 1">
+                        <div class="project-info">
+                            <h3>Tonic</h3>
+                            <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                            <ul class="tech-stack">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                            </ul>
+                            <a href="#" class="project-link">See Project</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="images/projects/Snapshoot Portfolio_1.png" alt="Project 2">
+                        <div class="project-info">
+                            <h3>Multi-Post Stories</h3>
+                            <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                            <ul class="tech-stack">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                            </ul>
+                            <a href="#" class="project-link">See Project</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="images/projects/Snapshoot Portfolio_2.png" alt="Project 3">
+                        <div class="project-info">
+
+                            <h3>Facebook 360</h3>
+                            <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                            <ul class="tech-stack">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                            </ul>
+                            <a href="#" class="project-link">See Project</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="images/projects/Snapshoot Portfolio_3.png" alt="Project 4">
+                        <div class="project-info">   
+                            <h3>Uber Navigation</h3>
+                            <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                            <ul class="tech-stack">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                            </ul>
+                            <a href="#" class="project-link">See Project</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about-myself">
+                <div class="about-content">
+                    <h2>About Myself</h2>
+                    <p>Hello I'm a software developer! I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.</p>
+                    <a href="#connect" class="cta-button">LET'S CONNECT</a>
+                    <div class="social-links">
+                        <a href="https://twitter.com"><img src="images/social_icons/twitter.svg" alt="Twitter Icon"></a>
+                        <a href="https://www.linkedin.com"><img src="/images/social_icons/linkedIn.svg" alt="LinkedIn Icon"></a>
+                        <a href="https://medium.com"><img src="images/social_icons/M.svg" alt="Medium Icon"></a>
+                        <a href="https://github.com"><img src="images/social_icons/github.svg" alt="Github Icon"></a>
+                        <a href="https://www.peace.com"><img src="images/social_icons/Vector.svg" alt="Peace Icon"></a>
+                    </div>
+                    <a href="#" class="resume-button">Get my resume</a>
+                </div>
+                <div class="skills-section">
+                    <div class="skill-category">
+                        <input type="checkbox" id="languages" class="skill-toggle" checked>
+                        <label for="languages" class="skill-label">Languages</label>
+                        <ul class="skill-list">
+                            <li class="item"><img src="images/projects/Ellipse 1.png" alt="JavaScript"> JavaScript</li>
+                            <li class="item"><img src="images/projects/Ellipse 1_1.png" alt="HTML"> HTML</li>
+                            <li class="item"><img src="images/projects/Ellipse 1_2.png" alt="CSS"> CSS</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <input type="checkbox" id="frameworks" class="skill-toggle">
+                        <label for="frameworks" class="skill-label">Frameworks</label>
+                        <ul class="skill-list">
+                            <li class="item">Framework 1</li>
+                            <li class="item">Framework 2</li>
+                            <li class="item">Framework 3</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <input type="checkbox" id="skills" class="skill-toggle">
+                        <label for="skills" class="skill-label">Skills</label>
+                        <ul class="skill-list">
+                            <li class="item">Skill 1</li>
+                            <li class="item">Skill 2</li>
+                            <li class="item">Skill 3</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="contact">
+                <h2>Contact me</h2>
+                <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I'd love to help with it!</p>
+                <form class="contact-form">
+                    <input type="text" placeholder="Lorem Ipsum" required>
+                    <input type="email" placeholder="loremipsum@gmail.com" required>
+                    <textarea placeholder="Write your message here..." required></textarea>
+                    <button type="submit" class="submit-btn">Get in touch</button>
+                </form>
+                <div class="decorative-object obj8"><img src="images/floating_objects/Ellipse 3.svg" alt="Floating_Object"></div>
+                <div class="decorative-object obj9"><img src="images/floating_objects/Ellipse 5.svg" alt="Floating_Object"></div>
+                <div class="decorative-object obj10"><img src="images/floating_objects/Ellipse 5.svg" alt="Floating_Object"></div>
+            </section>
+        </div>
     </main>
 
+    <script src="script.js"></script>
 
 </body>
 </html>
