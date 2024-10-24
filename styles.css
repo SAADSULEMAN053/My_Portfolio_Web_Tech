@@ -419,7 +419,7 @@ p {
 .contact {
     background-color: #6070ff;
     color: white;
-    padding: 4rem 1rem;
+    padding: 2rem 1rem;
     border-top-left-radius: 6rem;
     position: relative;
     overflow: hidden;
@@ -497,11 +497,11 @@ p {
 
 @media (width >= 768px) {
     .contact {
-        padding: 6rem 40rem;
+        padding: 6rem 20rem;
     }
 
     .contact-form {
-        max-width: 600px;
+        max-width: 1000px;
     }
     
     .submit-btn {
