@@ -1,21 +1,29 @@
 document.addEventListener('DOMContentLoaded', function() {
     const menuToggle = document.getElementById('menuToggle');
-    const closeMenu = document.getElementById('closeMenu');
+    const closeMenuButton = document.getElementById('closeMenu');
     const menuOverlay = document.getElementById('menuOverlay');
     const navLinks = document.querySelectorAll('.nav-links a');
 
-    function toggleMenu() {
-        menuOverlay.classList.toggle('active');
-        document.body.style.overflow = menuOverlay.classList.contains('active') ? 'hidden' : '';
+    function openMenu() {
+        menuOverlay.style.display = 'flex';
+        setTimeout(() => {
+            menuOverlay.classList.add('active');
+        }, 10);
+        document.body.style.overflow = 'hidden';
     }
 
-    menuToggle.addEventListener('click', toggleMenu);
-    closeMenu.addEventListener('click', toggleMenu);
+    function closeMenu() {
+        menuOverlay.classList.remove('active');
+        setTimeout(() => {
+            menuOverlay.style.display = 'none';
+            document.body.style.overflow = '';
+        }, 300);
+    }
+
+    menuToggle.addEventListener('click', openMenu);
+    closeMenuButton.addEventListener('click', closeMenu);
 
     navLinks.forEach(link => {
-        link.addEventListener('click', () => {
-            menuOverlay.classList.remove('active');
-            document.body.style.overflow = '';
-        });
+        link.addEventListener('click', closeMenu);
     });
 });
